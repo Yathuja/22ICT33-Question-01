@@ -54,5 +54,24 @@ namespace StudentAttendanceTracker
             cmbStatus.SelectedIndex = -1;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtStudentName.Clear();
+            cmbStatus.SelectedIndex = -1;
+            lstAttendance.ClearSelected();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (lstAttendance.SelectedIndex >= 0)
+            {
+                lstAttendance.Items.RemoveAt(lstAttendance.SelectedIndex);
+            }
+            else
+            {
+                MessageBox.Show("Please select a record to delete.", "Delete Record");
+            }
+        }
     }
 }
