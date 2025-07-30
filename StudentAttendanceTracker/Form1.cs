@@ -22,15 +22,37 @@ namespace StudentAttendanceTracker
 
         private void btnAddRecord_Click(object sender, EventArgs e)
         {
-            string studentName = txtStudentName.Text;
-            string status = cmbStatus.SelectedItem.ToString();
+            string studentName = txtStudentName.Text.Trim();
+            string status = cmbStatus.SelectedItem as string;
 
-            string record = studentName + " - " + status;
-            lstAttendance.Items.Add(record);
+            // Validate name is not empty
+            if (string.IsNullOrWhiteSpace(studentName))
+            {
+                MessageBox.Show("Student name cannot be empty.", "Validation Error");
+                return;
+            }
 
-            // Clear fields after adding
+            // Validate name contains only alphabetic characters
+            if (!System.Text.RegularExpressions.Regex.IsMatch(studentName, @"^[A-Za-z\s]+$"))
+            {
+                MessageBox.Show("Student name must contain only letters and spaces.", "Validation Error");
+                return;
+            }
+
+            // Validate status is selected
+            if (string.IsNullOrEmpty(status))
+            {
+                MessageBox.Show("Please select the attendance status.", "Validation Error");
+                return;
+            }
+
+            // Add the record
+            lstAttendance.Items.Add(studentName + " - " + status);
+
+            // Clear input fields
             txtStudentName.Clear();
             cmbStatus.SelectedIndex = -1;
+
         }
     }
 }

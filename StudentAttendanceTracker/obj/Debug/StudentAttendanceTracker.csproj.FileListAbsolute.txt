@@ -10,3 +10,9 @@ E:\UCJ\2025\Exams\Final\SCM Practical\StudentAttendanceTracker\StudentAttendance
 C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\bin\Debug\StudentAttendanceTracker.exe.config
 C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.exe
 C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.pdb
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\bin\Debug\StudentAttendanceTracker.exe
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\bin\Debug\StudentAttendanceTracker.pdb
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.csprojResolveAssemblyReference.cache
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.Form1.resources
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.Properties.Resources.resources
+C:\Users\ICT LAB\Desktop\SCM Practical\StudentAttendanceTracker\StudentAttendanceTracker\obj\Debug\StudentAttendanceTracker.csproj.GenerateResource.Cache
